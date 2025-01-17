@@ -97,7 +97,7 @@ p {
 
 .form-control {
   background-color: transparent;
-  border: 1px solid #999;
+  border: 1px solid orangered;
   border-radius: 0;
   color: #999999;
   font-size: 12px;
@@ -179,12 +179,10 @@ p {
 --------------------------------------------------------------*/
 #header {
   background: url("../img/Header/header1.jpg") repeat scroll center center/cover;
-  height: 12%;
   width: 100%;
-
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 10px 0;
   background-color: gold;
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
@@ -923,8 +921,8 @@ p {
 
 .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
+  color: orangered;
+  background: #fff;
   text-align: left;
   padding: 15px;
   margin-bottom: 15px;
@@ -1216,6 +1214,19 @@ blockquote {
     display: block;
   }
 
+  #hero {
+    background: url("../img/beetablet.webp") repeat scroll center center/cover;
+    height: 80vh;
+    width: 100%;
+  }
+  .cv-download {
+  
+    border: 2px solid darkblue;
+    color: white;
+    
+  } 
+
+
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
@@ -1299,6 +1310,20 @@ blockquote {
     display: block;
   }
 
+  /* Hero image */
+  #hero {
+    background: url("../img/beemobile.webp") repeat scroll center center/cover;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .cv-download {
+  
+    border: 2px solid orangered;
+    color: white;
+    
+  } 
+
   /* About */
   .head-info .header-content h1 {
     font-size: 32px;
@@ -1381,6 +1406,8 @@ blockquote {
     padding-top: 15px;
     display: block;
   }
+
+  
 
   /* About */
   .head-info .header-content h1 {
